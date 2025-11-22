@@ -1,0 +1,41 @@
+Matplotlib and Seaborn are the two most popular Python libraries for data visualization.
+
+Matplotlib → low-level, customizable, foundation library.
+Use Matplotlib for pie charts, custom subplots, and fine-tuned styling.
+
+Seaborn → high-level, statistical, beautiful defaults.
+Use Seaborn for box plots, heatmaps, pair plots (cleaner defaults).
+-----------------------------------------------------------------------
+
+For my visualization assignment, i have used all seven (pie, bar, hist, box, scatter, pair, heatmap)
+because it shows variety and covers both categorical and numerical insights.
+
+1. Pie chart → proportions, small categories.
+Used to Show proportions of categories within a whole. Works best with 2–6 categories.
+Example: Survival distribution (Survived vs Not Survived),
+         Gender split (Male vs Female),
+         Passenger class proportions (1st, 2nd, 3rd).
+
+2. Bar chart → categorical comparisons.
+Compare counts or averages across categories. Easy to interpret.
+Example: Survival rate by Sex, Survival rate by Pclass, Average Fare by Embarked port.
+
+3. Histogram → numeric distributions.
+Used to Show distribution of a single numeric variable. Highlights skewness, spread, and frequency.
+Example: Age distribution of passengers, Fare distribution.
+
+4. Box plot → spread + outliers.
+Used to Show spread, median, quartiles, and outliers of numeric data across categories.
+Example: Age distribution by Survival, Fare distribution by Pclass.
+
+5. Scatter plot → numeric relationships.
+Show relationship between two numeric variables. Useful for spotting trends or clusters.
+Example: Fare vs Age, Age vs SibSp (siblings/spouses aboard).
+
+6. Pair plot → multi-variable exploration.
+Show relationships among multiple numeric variables at once, with distributions on the diagonal.
+Example: Age, Fare, SibSp, Parch with hue='Survived' to see survival patterns.
+
+7. Heatmap → correlations or intensity patterns.
+Show correlations or intensity values in a matrix format.
+Example: Correlation heatmap of numeric features (Age, Fare, SibSp, Parch, Survived).
